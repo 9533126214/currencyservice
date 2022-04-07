@@ -2,8 +2,8 @@ pipeline {
 
   environment {
     PROJECT = "indigo-history-337312"
-    APP_NAME = "hello"
-    FE_SVC_NAME = "${APP_NAME}- checkout"
+    APP_NAME = "currency"
+    FE_SVC_NAME = "${APP_NAME}- currency"
     CLUSTER = "way2die"
     CLUSTER_ZONE = "us-east4-b"
     IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}:${env.BUILD_NUMBER}"
